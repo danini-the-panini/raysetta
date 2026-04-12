@@ -1,0 +1,108 @@
+{
+  "camera": {
+    "vfov": 40.0,
+    "lookfrom": [278.0, 278.0, -800.0],
+    "lookat": [278.0, 278.0, 0.0],
+    "vup": [0.0, 1.0, 0.0],
+    "defocus_angle": 0.0,
+    "focus_dist": 10.0
+  },
+  "background": {
+    "type": "Solid",
+    "albedo": [0.0, 0.0, 0.0]
+  },
+  "world": {
+    "left": {
+      "type": "Quad",
+      "q": [555.0, 0.0, 0.0],
+      "u": [0.0, 555.0, 0.0],
+      "v": [0.0, 0.0, 555.0],
+      "material": "green"
+    },
+    "right": {
+      "type": "Quad",
+      "q": [0.0, 0.0, 0.0],
+      "u": [0.0, 555.0, 0.0],
+      "v": [0.0, 0.0, 555.0],
+      "material": "red"
+    },
+    "light": {
+      "type": "Quad",
+      "q": [343.0, 554.0, 332.0],
+      "u": [-130.0, 0.0, 0.0],
+      "v": [0.0, 0.0, -105.0],
+      "material": "light"
+    },
+    "floor": {
+      "type": "Quad",
+      "q": [0.0, 0.0, 0.0],
+      "u": [555.0, 0.0, 0.0],
+      "v": [0.0, 0.0, 555.0],
+      "material": "white"
+    },
+    "ceil": {
+      "type": "Quad",
+      "q": [555.0, 555.0, 555.0],
+      "u": [-555.0, 0.0, 0.0],
+      "v": [0.0, 0.0, -555.0],
+      "material": "white"
+    },
+    "back": {
+      "type": "Quad",
+      "q": [0.0, 0.0, 555.0],
+      "u": [555.0, 0.0, 0.0],
+      "v": [0.0, 555.0, 0.0],
+      "material": "white"
+    },
+    "box1": {
+      "type": "Box",
+      "a": [130.0, 0.0, 65.0],
+      "b": [295.0, 165.0, 230.0],
+      "material": "white"
+    },
+    "box2": {
+      "type": "Box",
+      "a": [265.0, 0.0, 295.0],
+      "b": [430.0, 330.0, 460.0],
+      "material": "white"
+    }
+  },
+  "materials": {
+    "green": {
+      "type": "Lambertian",
+      "texture": "green"
+    },
+    "red": {
+      "type": "Lambertian",
+      "texture": "red"
+    },
+    "white": {
+      "type": "Lambertian",
+      "texture": "white"
+    },
+    "light": {
+      "type": "DiffuseLight",
+      "texture": "light"
+    }
+  },
+  "textures": {
+    "green": {
+      "type": "SolidColor",
+      "albedo": [0.12, 0.45, 0.15]
+    },
+    "red": {
+      "type": "SolidColor",
+      "albedo": [0.65, 0.05, 0.05]
+    },
+    "white": {
+      "type": "SolidColor",
+      "albedo": [0.73, 0.73, 0.73]
+    },
+    "light": {
+      "type": "SolidColor",
+      "albedo": [15.0, 15.0, 15.0]
+    }
+  },
+  "images": {},
+  "noises": {}
+}

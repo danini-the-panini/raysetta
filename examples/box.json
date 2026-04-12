@@ -1,0 +1,26 @@
+{
+  "world": {
+    "box":  { "type": "Box", "a": [-1.0, -2.0, -1.0], "b": [1.0, 2.0, 1.0], "material": "mat" }
+  },
+  "materials": {
+    "mat":     { "type": "Lambertian", "texture": "col" }
+  },
+  "textures": {
+    "col": { "type": "SolidColor", "albedo": [1.0, 0.2, 1.0] }
+  },
+  "images": {},
+  "noises": {},
+  "camera": {
+    "vfov": 80.0,
+    "lookfrom": [4.5, 4.5, 4.5],
+    "lookat": [0.0, 0.0, 0.0],
+    "vup": [0.0, 1.0, 0.0],
+    "defocus_angle": 0.0,
+    "focus_dist": 10.0
+  },
+  "background": {
+    "type": "Gradient",
+    "top": [0.5, 0.7, 1.0],
+    "bottom": [1.0, 1.0, 1.0]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "world": {
+    "left":  { "type": "Tri", "a": [-3.0, -2.0, 5.0], "b": [-3.0, -2.0, 1.0], "c": [-3.0, 2.0,  5.0], "material": "left_red" },
+    "back":  { "type": "Quad", "q": [-2.0, -2.0, 0.0], "u": [4.0, 0.0,  0.0], "v": [0.0, 4.0,  0.0], "material": "back_green" },
+    "right": { "type": "Quad", "q": [ 3.0, -2.0, 1.0], "u": [0.0, 0.0,  4.0], "v": [0.0, 4.0,  0.0], "material": "right_blue" },
+    "upper": { "type": "Quad", "q": [-2.0,  3.0, 1.0], "u": [4.0, 0.0,  0.0], "v": [0.0, 0.0,  4.0], "material": "upper_orange" },
+    "lower": { "type": "Quad", "q": [-2.0, -3.0, 5.0], "u": [4.0, 0.0,  0.0], "v": [0.0, 0.0, -4.0], "material": "lower_teal" }
+  },
+  "materials": {
+    "left_red":     { "type": "Lambertian", "texture": "left_red" },
+    "back_green":   { "type": "Lambertian", "texture": "back_green" },
+    "right_blue":   { "type": "Lambertian", "texture": "right_blue" },
+    "upper_orange": { "type": "Lambertian", "texture": "upper_orange" },
+    "lower_teal":   { "type": "Lambertian", "texture": "lower_teal" }
+  },
+  "textures": {
+    "left_red": { "type": "SolidColor", "albedo": [1.0, 0.2, 0.2] },
+    "back_green": { "type": "SolidColor", "albedo": [0.2, 1.0, 0.2] },
+    "right_blue": { "type": "SolidColor", "albedo": [0.2, 0.2, 1.0] },
+    "upper_orange": { "type": "SolidColor", "albedo": [1.0, 0.5, 0.0] },
+    "lower_teal": { "type": "SolidColor", "albedo": [0.2, 0.8, 0.8] }
+  },
+  "images": {},
+  "noises": {},
+  "camera": {
+    "vfov": 80.0,
+    "lookfrom": [0.0, 0.0, 9.0],
+    "lookat": [0.0, 0.0, 0.0],
+    "vup": [0.0, 1.0, 0.0],
+    "defocus_angle": 0.0,
+    "focus_dist": 10.0
+  },
+  "background": {
+    "type": "Gradient",
+    "top": [0.5, 0.7, 1.0],
+    "bottom": [1.0, 1.0, 1.0]
+  }
+}

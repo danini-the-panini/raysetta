@@ -1,0 +1,58 @@
+{
+  "world": {
+    "ball": {
+      "type": "Sphere",
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius": 2.0,
+      "material": "lambertian-b4668"
+    }
+  },
+  "camera": {
+    "vfov": 20.0,
+    "lookfrom": [
+      0.0,
+      0.0,
+      12.0
+    ],
+    "lookat": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vup": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "defocus_angle": 0.0,
+    "focus_dist": 10.0
+  },
+  "background": {
+    "type": "Gradient",
+    "top": [0.5, 0.7, 1.0],
+    "bottom": [1.0, 1.0, 1.0]
+  },
+  "materials": {
+    "lambertian-b4668": {
+      "type": "Lambertian",
+      "texture": "image-b467c"
+    }
+  },
+  "textures": {
+    "image-b467c": {
+      "type": "Image",
+      "image": "image-b4690"
+    }
+  },
+  "images": {
+    "image-b4690": {
+      "type": "Image",
+      "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEX/AP///wCyGt1tAAAAO0lEQVR4nAEwAM//Asv3Ar+JApaAAkCSAmLxAue9Ar/DAlnuAj83AgTYAsEyAgG1Aoj5AjN4AjurAgGr0NQRjAixRuIAAAAASUVORK5CYII="
+    }
+  },
+  "noises": {}
+}
