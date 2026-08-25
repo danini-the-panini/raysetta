@@ -399,6 +399,7 @@ These are merely recommendations, some implementations may choose to receive the
 - [C++](https://github.com/danini-the-panini/raysetta-cpp)
 - [TypeScript](https://github.com/danini-the-panini/raysetta-ts)
 - [Zig](https://github.com/danini-the-panini/raysetta-zig)
+- [Crystal](https://github.com/danini-the-panini/raysetta-cr)
 
 Feel free to write your own and make a PR to add it to this list!
 
