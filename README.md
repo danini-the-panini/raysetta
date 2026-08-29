@@ -124,8 +124,8 @@ Example:
     },
     "shiny": {
       "type": "Metal",
-      "fuzz" 0.1,
-      "texture: "some-tex"
+      "fuzz": 0.1,
+      "texture": "some-tex"
     }
   }
 }
@@ -153,8 +153,8 @@ Example:
 ```json
 {
   "type": "Metal",
-  "fuzz" 0.4,
-  "texture: "some-tex"
+  "fuzz": 0.4,
+  "texture": "some-tex"
 }
 ```
 
@@ -263,7 +263,7 @@ Example:
 ```json
 {
   "type": "Perlin",
-  "randvec", [
+  "randvec": [
     [0.6385160781453911, -0.7516119887010739, -0.1654588661590717],
     [-0.20794026852296088, 0.886558638764635, -0.4132488654048504],
     // ...
