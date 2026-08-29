@@ -102,9 +102,9 @@ Six quadritaterals (rectangles in particular) arranged to form a rectangular pri
 
 ```json
 {
-  "type": "Tri",
-  "a": [-2.0, 3,0, -2.0],
-  "b": [2.0, 3,0, 2.0],
+  "type": "Box",
+  "a": [-2.0, -3.0, -2.0],
+  "b": [2.0, 3.0, 2.0],
   "material": "some-material"
 }
 ```
