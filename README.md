@@ -58,7 +58,7 @@ Example:
 {
   "type": "MovingSphere",
   "center1": [0.0, 1.0, -3.0],
-  "center1": [-1.0, 0.0, -2.0],
+  "center2": [-1.0, 0.0, -2.0],
   "radius": 1.5,
   "material": "some-material"
 }
