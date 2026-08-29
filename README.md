@@ -6,7 +6,7 @@ The Raysetta Project is a [chrestomathy](https://en.wikipedia.org/wiki/Chrestoma
 
 Spec version: `0.1.0`
 
-Scenes are defined in JSON. Some examples can be found in the [/examples] folder.
+Scenes are defined in JSON. Some examples can be found in the [examples](/examples) folder.
 
 A scene is made up of a `world` of objects that reference `materials` which may reference `textures` that may also reference `images` or `noises`. The scene also requires a `camera`, as well as a `background` possibly referencing one or more `textures`. Vectors are repesented as an array of three numbers.
 
